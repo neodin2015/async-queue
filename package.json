@@ -1,0 +1,17 @@
+{
+  "name": "async-queue",
+  "version": "1.0.0",
+  "module": "commonjs",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc ./src/index.ts -d --outdir ./dist",
+    "test": "tsc ./test/index.ts & node ./test/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
